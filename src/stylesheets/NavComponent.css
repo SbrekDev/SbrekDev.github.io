@@ -1,0 +1,35 @@
+.navbar{
+    display: block;
+    position: absolute;
+    width: 98%;
+    height: 50px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    box-shadow: rgba(50, 50, 93, 0.15) 0px 50px 100px -20px, rgba(0, 0, 0, 0.2) 0px 30px 60px -30px;
+    z-index: 10;
+    user-select: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding-right: 10px;
+
+}
+
+.navbar ul li a{
+    text-decoration:none;
+    color: white;
+}
+
+.login{
+    float: right;
+    margin-right: 30px;
+}

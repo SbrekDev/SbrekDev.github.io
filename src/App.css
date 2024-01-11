@@ -1,0 +1,11 @@
+
+body{
+    background-image: url("/src/assets/images/background1.jpg");
+    background-size: auto;
+    font-family: sans-serif;
+  }
+
+
+  .home-container{
+    z-index: -10;
+  }

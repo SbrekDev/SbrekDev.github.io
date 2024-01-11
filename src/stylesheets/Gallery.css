@@ -1,0 +1,123 @@
+
+/* main */
+
+
+/* Galeria */
+.galeria-grid{
+    height: 80vh;
+    width: 98%;
+    margin: auto;
+    margin-top: 70px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1px);
+    box-shadow: rgba(50, 50, 93, 0.15) 0px 50px 100px -20px, rgba(0, 0, 0, 0.2) 0px 30px 60px -30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+    grid-gap: 12px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+
+.galeria-grid img{
+  width: 100%;
+  height: 100%;
+  border-radius:5px;
+}
+
+.galeria-grid img:first-child{
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+
+.galeria-grid img:nth-child(6){
+  grid-column: 2/4;
+  grid-row: 3/5;
+}
+.galeria-grid img:nth-child(8){
+  grid-row: spam 3
+}
+
+.galeria-grid img:nth-child(10){
+grid-row: span 2;
+}
+
+
+
+.galeria-grid img:nth-child(14){
+grid-row: span 2;
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+
+  .galeria-grid img:hover{
+    opacity: 0.7;
+  }
+
+  .selectedImg {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    
+  }
+  
+  .modal-content {
+    max-width: 85%;
+    max-height: 85%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 50px;
+
+
+  }
+  
+  .modal-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+  }
+
+  .gallery-buttons{
+    display: block;
+    position: absolute;
+    bottom: 3%;
+  }
+  .modal-btn{
+    width: 80px;
+    height: 40px;
+    background:transparent;
+    border: 1px solid white;
+    border-radius: 100px;
+    display: inline-block;
+    color: white;
+    position: relative;
+    margin-left: 8px;
+    margin-right: 8px;
+    
+
+  
+  }
+
+  .modal-btn:hover{
+    background-color: white;
+    color: black;
+    transition: 300ms;
+}
+  

@@ -1,0 +1,51 @@
+.objective-container{
+    width: 500px;
+    min-height: 65px;
+    margin: 5px 0;
+    padding: 8px 15px 8px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+    border: 1px solid white;
+    cursor: pointer;
+    color: white;
+}
+
+
+.objective-container:nth-child(3n + 1){
+    background-color: rgb(70, 90, 155);
+
+}
+
+.objective-container:nth-child(3n + 2){
+    background-color: rgb(85, 105, 170);
+
+}
+
+.objective-container:nth-child(3n + 3){
+    background-color: rgb(107, 127, 190);
+
+}
+
+.objective-text {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    overflow-wrap: aywhere;
+    user-select: none;
+}
+
+.objective-icon {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
+.objective-container.completed {
+    border: 1px solid white;
+    background-color: rgba(124, 124, 124, 0.6);
+    text-decoration: line-through;
+}

@@ -1,0 +1,72 @@
+/* Forgot Password*/
+
+
+.container-forgot{
+    height: 330px;
+    width: 450px;
+    margin: auto;
+    margin-top: 170px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: transparent;
+    backdrop-filter: blur(8px);
+    box-shadow: rgba(50, 50, 93, 0.15) 0px 50px 100px -20px, rgba(0, 0, 0, 0.2) 0px 30px 60px -30px;
+  }
+  
+  
+  .container-forgot h1{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  
+  
+  .input-forgot{
+    width: 320px;
+    height: 40px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    margin: auto;
+    margin-top: 24px;
+    display: block;
+    color: white;
+    outline: none;
+  }
+  
+  .container-forgot p{
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 30px;
+  }
+  
+  
+  .container-forgot button{
+    width: 320px;
+    height: 40px;
+    background:transparent;
+    border: 1px solid white;
+    margin: auto;
+    margin-top:28px;
+    border-radius: 100px;
+    display: block;
+    color: white;
+  }
+  
+  .container-forgot a{
+    display: block;
+    color: white; 
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.8em;
+  }
+  
+  .container-forgot button:hover{
+    background-color: white;
+    color: black;
+    transition: 300ms;
+  }
